@@ -55,10 +55,14 @@ The goal of section was to further explore the data set created after 'Cleaning 
 <br />
 
 * Outliers Analysis -- It was verified that 'visibility', 'energy_sum', 'Avg.Dawn', 'Avg.Morning_Afternoon', 'Avg.Evening', and 'Avg.Night' presented outliers. Thus, this would be explored to understand whether the outliers would be reasonable given the scale and nature of the data. In this case, it was evidenced that most of the outliers occur in 'Winter' and 'StartSpr/EndAut' which makes makes sense as visibility decreases during colder periods. Similarly, it has been found that households tend to consume more energy during colder climates. Hence, 'visibility', 'energy_sum', 'Avg.Dawn', 'Avg.Morning_Afternoon', 'Avg.Evening', and 'Avg.Night' outliers will be kept. <br />
-<img src="https://github.com/Omar-Martinez/London-Energy-Forecast/blob/master/Images/Visibility%20outliers%20vs%20Season.png" width="400"/> <img src="https://github.com/Omar-Martinez/London-Energy-Forecast/blob/master/Images/Energy%20outliers%20VS%20Season.png" width="400"/>
+<img src="https://github.com/Omar-Martinez/London-Energy-Forecast/blob/master/Images/Visibility%20outliers%20vs%20Season.png" width="450"/> <img src="https://github.com/Omar-Martinez/London-Energy-Forecast/blob/master/Images/Energy%20outliers%20VS%20Season.png" width="450"/>
 
 
-*  -- 
+*  Correlation Analysis -- As a result of the analysis several variables such as 'temperatureLow' and 'temperatureHigh' were eliminated to reduce high dimensionality and prevent high correlation problems. Similarly, a very strong correlation between 'Avg.Dawn', 'Avg.Morning_Afternoon', 'Avg.Evening','Avg.Night', and 'energy_sum' was identified. Nevertheless, all these features were kept for modelling but carefully considered in order to avoid undesired outcomes due to the correlation.
+![](image)
+
+* Energy Sum Analysis Over Time -- Plotting energy consumption along time served for understanding how consumption varies along months/seasons.
+
 
 <br /><br />
 
