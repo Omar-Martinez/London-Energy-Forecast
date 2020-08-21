@@ -2,7 +2,7 @@
 
 Using an LSTM model to forecast energy consumption in London (analysis by Acorns included).
 
-*Authors*: Omar Alejandro Martínez and Nicolás Rosal
+*Authors*: Nicolás Rosal & Omar Alejandro Martínez 
 <br /><br />
 
 
